@@ -1,0 +1,13 @@
+{
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "setupFiles": [
+      "raf/polyfill",
+      "<rootDir>/src/tests/setupTests.js"
+    ],
+    "transform": {
+      "^.+\\.(js)$": "<rootDir>/node_modules/webpack-babel-jest"
+    }
+  }
+  

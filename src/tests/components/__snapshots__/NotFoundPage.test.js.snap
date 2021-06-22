@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect not found page to be rendered 1`] = `
+<div>
+  <[object Object]
+    to="/"
+  >
+    Need Login Help?
+  </[object Object]>
+</div>
+`;

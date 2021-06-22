@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render expense list with empty message 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Expenses
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Expense
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Amount
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <div
+      className="list-item list-item--message"
+    >
+      <span>
+        No Expenses
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`should render expense list with expenses 1`] = `
+<div
+  className="content-container"
+>
+  <div
+    className="list-header"
+  >
+    <div
+      className="show-for-mobile"
+    >
+      Expenses
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Expense
+    </div>
+    <div
+      className="show-for-desktop"
+    >
+      Amount
+    </div>
+  </div>
+  <div
+    className="list-body"
+  >
+    <Component
+      amount={195}
+      createdAt={0}
+      description="yup"
+      id="0"
+      key="0"
+      note="there are some notes here"
+    />
+    <Component
+      amount={295}
+      createdAt={-345600000}
+      description="rent"
+      id="1"
+      key="1"
+      note="this is a note on ID 1"
+    />
+    <Component
+      amount={395}
+      createdAt={345600000}
+      description="credit card"
+      id="2"
+      key="2"
+      note="this is a note on ID 2"
+    />
+  </div>
+</div>
+`;

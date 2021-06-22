@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render LoginPage 1`] = `
+<div
+  className="box-layout"
+>
+  <div
+    className="box-layout__box"
+  >
+    <h1
+      className="box-layout__title"
+    >
+      Expense Tracker App
+    </h1>
+    <p>
+      Do you know where your expenses are right now?
+    </p>
+    <button
+      className="button button--glogin"
+      onClick={[Function]}
+    >
+      Login with Google
+    </button>
+    <button
+      className="button"
+    >
+      Login with Facebook
+    </button>
+  </div>
+</div>
+`;

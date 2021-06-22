@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect expense list item to be rendered 1`] = `
+<div>
+  <[object Object]
+    className="list-item"
+    to="/edit/0"
+  >
+    <div>
+      <h3
+        className="list-item__title"
+      >
+        yup
+      </h3>
+      <span
+        className="list-item__sub-title"
+      >
+        Dec 31 1969
+      </span>
+    </div>
+    <h3
+      className="list-item__data"
+    >
+      $1.95
+       
+    </h3>
+  </[object Object]>
+</div>
+`;
