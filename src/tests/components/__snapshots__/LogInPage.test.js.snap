@@ -10,11 +10,8 @@ exports[`should render LoginPage 1`] = `
     <h1
       className="box-layout__title"
     >
-      Expense Tracker App
+      Boilerplate React App
     </h1>
-    <p>
-      Do you know where your expenses are right now?
-    </p>
     <button
       className="button button--glogin"
       onClick={[Function]}

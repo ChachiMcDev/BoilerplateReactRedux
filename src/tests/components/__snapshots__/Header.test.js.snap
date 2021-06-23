@@ -22,7 +22,7 @@ exports[`should render Header correctly 1`] = `
         to="/dashboard"
       >
         <h1>
-          Expense Dashboard
+          Boilerplate React
         </h1>
       </[object Object]>
       <[object Object]
